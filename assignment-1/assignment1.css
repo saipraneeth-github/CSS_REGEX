@@ -1,0 +1,23 @@
+
+body{
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: Algerian;
+	color: #99722b;
+
+}
+h1{
+	text-align: center;
+	padding-top: 50px;
+
+}
+div{
+    width: 300px;
+	padding-left:40% ;
+	text-align: center;
+
+
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment-4</title>
+	<link rel="stylesheet" type="text/css" href="styles_4.css">
+</head>
+<body>
+	
+<div class="container">
+	<h1>Zoo Keeper Aplication Form</h1> 
+	<p><em>Please comeplete the form. Mandatory fields are marked with a<span class="star">*</span></em></p>
+	<fieldset>
+	    <legend>CONTACT DETAILS</legend>
+	    <form>
+	        <table>
+	        	<tr>
+	        		<td><label for="name">Name<span class="star">*</span></label></td>
+	        		<td><input type="text" name="name" id="name" required></td>
+	        	</tr>
+	        	<tr>
+	        		<td><label for="phone">Telephone</label></td>
+	        		<td><input type="number" name="phone" id="phone"></td>
+	        	</tr>
+	        	<tr>
+	        		<td><label for="email">Email<span>*</span></label></td>
+	        		<td><input type="email" name="email" id="email" required></td>
+	        	</tr>
+	        </table>
+	    </form>
+	</fieldset>
+
+	<fieldset>
+	    <legend>PERSONAL INFORMATION</legend>
+	    <form>
+	        <table>
+	        	<tr>
+	        		<td><label for="age">Age<span class="star">*</span></label></td>
+	        		<td><input type="number" name="age" id="age" required></td>
+	        	</tr>
+	        	<tr>
+	        		<td><label for="gender">Gender </label></td>
+	        		<td><select name="gender" id="gender">
+	        			<option value="">--  Please Select --</option>
+	        			<option value="male">Male</option>
+	        			<option value="female">Female</option>
+	        			<option value="other">Other</option>
+	        		</select></td>
+	        	</tr>
+	        	<tr>
+	        		<td><label for="question">When did you first know you wanted to be a zoo-keeper?</label></td>
+	        		<td><textarea name="question" id="question" rows="7" cols="40"></textarea></td>
+	        	</tr>
+	        </table>
+	    </form>
+	</fieldset>
+
+	<fieldset>
+		<legend>PICK YOUR FAVORITE ANIMALS</legend>
+		<form>
+			<label><input type="checkbox" name="animal" value="zebra">Zebra</label>
+			<label><input type="checkbox" name="animal" value="cat">Cat</label>
+			<label><input type="checkbox" name="animal" value="anaconda">Anaconda</label>
+			<label><input type="checkbox" name="animal" value="human">Human</label><br>
+			<label><input type="checkbox" name="animal" value="elephant">Elephant</label>
+			<label><input type="checkbox" name="animal" value="wildbeast">Wildbeast</label>
+			<label><input type="checkbox" name="animal" value="pigeon">Pigeon</label>
+			<label><input type="checkbox" name="animal" value="crab">Crab</label>
+		</form>
+	</fieldset>
+	<input type="Submit" value="Submit Application" id="submit">
+</div>
+
+</body>
+</html>
